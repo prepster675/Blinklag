@@ -1,0 +1,10 @@
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\BlinkPositive.exe.config
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\BlinkPositive.exe
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\BlinkPositive.pdb
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\LeagueSharp.Common.dll
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\LeagueSharp.dll
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\SharpDX.dll
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\bin\Release\LeagueSharp.xml
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\obj\Debug\BlinkPositive.exe
+C:\Users\Blinkenmage\Documents\Visual Studio 2013\Projects\BlinkPositive\BlinkPositive\obj\Debug\BlinkPositive.pdb
