@@ -47,11 +47,9 @@ namespace BlinkPositive
             killspree1 = new[] { "Nice Killing Spree!", "Your a true Beast!", "Your just staying on top bb :)" };
             gamestart = Game.Time;
 
-            if (gamestart >= 30)
-            {
-                Game.Say(WelcomeGame1[messagesent]);
-                messagesent++;
-            }
+        //    Utility.DelayAction.Add(3, (){Game.Say(WelcomeGame1[messagesent]};
+            Utility.DelayAction.Add(3000, () => { Game.Say(WelcomeGame1[messagesent]); });
+
 
         }
     }
