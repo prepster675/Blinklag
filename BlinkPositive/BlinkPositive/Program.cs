@@ -30,6 +30,8 @@ namespace BlinkPositive
         private static string[] killspree1;
         //private static int pentasteal = 0;
         //private static string[] pentasteal;
+        private static string[] penta1;
+        private static int penta = 0;
         private static string[] EndGame1;
         private static void Main(string[] args)
         {
@@ -45,12 +47,39 @@ namespace BlinkPositive
             towerdestroyed1 = new[] { "Great Siege!", "Push dem' Towers baby!", "Pushing harder than my mom!", "Good Objective Control!" };
             kill1 = new[] { "Got him Team :)", "Get em'!", "Staying on top :)" };
             killspree1 = new[] { "Nice Killing Spree!", "Your a true Beast!", "Your just staying on top bb :)" };
-            gamestart = Game.Time;
+            penta1 = new[] { "Perfect Execution!" };
 
         //    Utility.DelayAction.Add(3, (){Game.Say(WelcomeGame1[messagesent]};
             Utility.DelayAction.Add(3000, () => { Game.Say(WelcomeGame1[messagesent]); });
 
 
+        }
+        private static void OnGameEnd(EventArgs args)
+        {
+            Utility.DelayAction.Add(770, () => { Game.Say(EndGame1[messagesent]); });
+        }
+
+        private static void Game_OnGameUpdate(EventArgs args)
+        {
+            if (ObjectManager.Player.IsDead && death < 3)
+            {
+                Game.Say(death1[death]);
+                death++;
+
+            }
+            if (ObjectManager.Player.TurretsKilled == 1)
+            {
+                Game.Say(towerdestroyed1[towerdestroyed]);
+
+            }
+            if (ObjectManager.Player.PentaKills == 1)
+            {
+                Game.Say(penta1[penta]);
+            }
+            //if ObjectManager.Player.QuadraKills == 1 && ObjectManager.Player.kill
+         //   {
+//
+          //  }
         }
     }
 }
